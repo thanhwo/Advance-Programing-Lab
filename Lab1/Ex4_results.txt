@@ -1,0 +1,22 @@
+3
+9
+total 115148
+drwxr-xr-x 2 thanh thanh      4096 Jan  4 21:23 Desktop
+drwxr-xr-x 2 thanh thanh      4096 Jan  4 21:23 Documents
+drwxr-xr-x 3 thanh thanh      4096 Mar 17 16:53 Downloads
+-rw-rw-r-- 1 thanh thanh 117840328 Jan  1 06:26 google-chrome-stable_current_amd64.deb
+drwxrwxr-x 3 thanh thanh      4096 Mar 19 23:07 Labs
+-rwxrwxr-x 1 thanh thanh     15960 Mar  3 17:33 main
+-rw-rw-r-- 1 thanh thanh        65 Mar  3 17:30 main.c
+-rw-rw-r-- 1 thanh thanh      1368 Mar  3 17:32 main.o
+drwxr-xr-x 2 thanh thanh      4096 Jan  4 21:23 Music
+drwxr-xr-x 3 thanh thanh      4096 Jan  6 16:53 Pictures
+drwxr-xr-x 2 thanh thanh      4096 Jan  4 21:23 Public
+drwx------ 7 thanh thanh      4096 Jan  4 15:00 snap
+-rw-rw-r-- 1 thanh thanh         0 Mar 19 23:00 Solution.txt
+drwxrwxr-x 4 thanh thanh      4096 Feb  4 14:39 stm
+drwxr-xr-x 2 thanh thanh      4096 Jan  4 21:23 Templates
+drwxr-xr-x 2 thanh thanh      4096 Jan  4 21:23 Videos
+37
+23
+327
