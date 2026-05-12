@@ -28,7 +28,7 @@ int main(){
     pthread_t t1, t2;
     
     pthread_create(&t1, NULL, increase_100times, NULL);
-    pthread_create(&t2, NULL, decrease_50time, NULL);
+    pthread_create(&t1, NULL, decrease_50time, NULL);
     
     pthread_join(t1, NULL); 
     pthread_join(t2, NULL);
