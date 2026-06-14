@@ -3,6 +3,7 @@
 #include <fcntl.h>
 #include <dirent.h>
 #include <sys/wait.h>
+
 int main(int argc, char *argv[]){
     if (argc != 2){
         printf("Usage: %s <directory_path\n", argv[0]);
@@ -23,8 +24,7 @@ int main(int argc, char *argv[]){
         }
         closedir(dir);
         return 0;
-	}
-	else{
+	}else{
 		wait(&status);
 	} 
 }

@@ -1,4 +1,4 @@
-include <sys/wait.h>
+#include <sys/wait.h>
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
@@ -16,13 +16,12 @@ int main(){
 		istack += 50;
 		printf("idata= %d, istack = %d\n", idata, istack);
 		lseek(fd, 7, SEEK_SET);
-	}
-	else{
+	}else{
 		wait(&status);
 		printf("idata= %d, istack = %d\n", idata, istack);
 		char buffer[1000];
 		int n = read(fd, buffer, sizeof(buffer) -1);
 		buffer[n] = '\0';
-	printf("Hello.txt: %s\n", buffer);	
+        printf("Hello.txt: %s\n", buffer);	
 	}
 }

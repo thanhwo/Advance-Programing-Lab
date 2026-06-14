@@ -25,12 +25,9 @@ void list_files(const char *path) {
     printf("Files in directory: %s\n", path);
 
     while ((entry = readdir(dir)) != NULL) {
-        // Skip . and ..
         if (strcmp(entry->d_name, ".") == 0 ||
             strcmp(entry->d_name, "..") == 0)
             continue;
-
-        // Get file info
         stat(entry->d_name, &file_stat);
 
         printf("- %s (size: %ld bytes)\n",
@@ -43,13 +40,12 @@ void list_files(const char *path) {
 }
 
 int main(int argc, char *argv[]) {
-    const char *path = "."; // default current directory
+    const char *path = "."; 
 
     if (argc > 1) {
         path = argv[1];
     }
 
-    // Register Ctrl+C handler
     signal(SIGINT, handle_sigint);
 
     while (1) {
